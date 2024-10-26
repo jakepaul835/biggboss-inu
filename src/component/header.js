@@ -35,11 +35,11 @@ export default function Header() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav justify-content-center">
               <Nav className="mx-auto">
-                <Nav.Link className='mx-3' href="/banner">Home</Nav.Link>
-                <Nav.Link className='mx-3' href="/about">About</Nav.Link>
-                <Nav.Link className='mx-3' href="/howtobuy">How to Buy</Nav.Link>
-                <Nav.Link className='mx-3' href="/tokenomics">Tokenomics</Nav.Link>
-                <Nav.Link className='mx-3' href="/roadmap">Roadmap</Nav.Link>
+                <Nav.Link className='mx-3' href="#banner">Home</Nav.Link>
+                <Nav.Link className='mx-3' href="#about">About</Nav.Link>
+                <Nav.Link className='mx-3' href="#howtobuy">How to Buy</Nav.Link>
+                <Nav.Link className='mx-3' href="#tokenomics">Tokenomics</Nav.Link>
+                <Nav.Link className='mx-3' href="#roadmap">Roadmap</Nav.Link>
                 <Button href="/link" variant="primary">Buy Now</Button>
               </Nav>
             </Navbar.Collapse>
