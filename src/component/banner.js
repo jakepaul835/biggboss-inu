@@ -76,9 +76,9 @@ export default function Banner() {
                         </div>
                         <div className="d-sm-flex justify-content-center">
                             <div className="ms-lg-4 mb-sm-0 mb-4 d-flex align-items-center flex-column">
-                                <div>
+                                <div className='social-icons'>
                                     <a href="/" className="mb-2 d-inline-block">
-                                        <img src={twittericon} alt="Twitter" />
+                                        <img src={twittericon} alt="" />
                                     </a>
                                     <br />
                                     <a href="/" className="mb-2 d-inline-block">
@@ -91,6 +91,9 @@ export default function Banner() {
                             </div>
                             <div className="banner-calc">
                                 <div className='bigboss-presale'>
+                                    <div className='text-center'>
+                                        <h2>BUY BEFORE PRICE INCREASE</h2>
+                                    </div>
                                     <div className="banner-calc-inner">
                                         <h3>{presaleData.PEPEMEMECOIN}</h3>
                                         <ul>
@@ -103,16 +106,16 @@ export default function Banner() {
                                                 <h5>{presaleData.PEMEEQUAL}</h5>
                                             </li>
                                         </ul>
-                                        <p className="amount-raised">Total Amount Raised :</p>
-                                        <h3 className="amount-text text-start">{amountRaised}</h3>
-                                        <div className="progress">
-                                            <div style={{ width: `${presaleData.TEXTBOXVAL}%` }}  className="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{presaleData.TEXTBOXVAL}%</div>
-                                        </div>
                                         <div className="listing-price text-center">
-                                            <p>{presaleData.UPTO} : <span>{presaleData.PERCENTAGE}</span></p>
+                                            <p>Listing Price : <span>{presaleData.UPTO}{presaleData.PERCENTAGE}</span></p>
                                         </div>
+                                        <p className="amount-raised text-center text-white mb-2 fw-bold">Total Amount Raised :</p>
+                                        <h3 className="amount-text text-center text-white">{amountRaised}</h3>
                                     </div>
                                     <div className='buy-bigboss'>
+                                        <div className="progress">
+                                            <div style={{ width: `${presaleData.TEXTBOXVAL}%` }}  className="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{presaleData.TEXTBOXVAL}70%</div>
+                                        </div>
                                         <div className="pay-box">
                                             <div className="paybox-inner">
                                                 <h5 className="text-start">You Pay <span>{presaleData.STAGEBONUSVAL}</span></h5>

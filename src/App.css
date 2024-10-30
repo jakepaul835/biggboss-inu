@@ -59,7 +59,19 @@ ul {
   padding-left: 0 !important;
   margin: 0 !important;
 }
-
+.social-icons {
+  position: relative;
+  z-index: 1;
+}
+.social-icons a {
+  border: 3px solid #472610;
+  border-radius: 50px;
+  transition: .4s all;
+}
+.social-icons a:focus,
+.social-icons a:hover{
+  border-color: #fff;
+}
 .main-header {
   padding: 10px 0;
   position: sticky;
@@ -124,7 +136,7 @@ header.main-header.scrolled {
 }
 
 .banner-section a img {
-  box-shadow: 0 5px 12px 0 rgb(14 43 106 / 65%);
+  /* box-shadow: 0 5px 12px 0 rgb(14 43 106 / 65%); */
   border-radius: 50px;
 }
 .follow-us {
@@ -728,12 +740,22 @@ img.vert-move {
   width: 100%;
   max-width: 75%;
 }
+.bigboss-presale h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #472610;
+  margin: 0;
+  padding: 10px 0px;
+}
 .banner-calc-inner {
   background: url(../src/images/big-boss-presale-bg.png) no-repeat center;
   background-size: cover;
-  border-radius: 30px 30px 0 0;
   padding-inline: 30px;
   padding-top: 20px;
+  border-top: 5px solid #472610;
+  border-bottom: 5px solid #472610;
+  padding-bottom: 15px;
+
 }
 .banner-calc-inner h3,
 .banner-calc-inner h4,
@@ -746,10 +768,10 @@ img.vert-move {
   bottom: 41px;
 }
 .banner-calc-inner h3 {
-  font-size: 34px;
+  font-size: 39px;
   color: #fff;
   text-shadow: 1px 2px 1px BLACK;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   font-weight: 600;
   letter-spacing: 0.4px;
   text-align: center;
@@ -801,7 +823,7 @@ img.vert-move {
   border-radius: 29px;
   height: 100%;
   background-color: #fff;
-  padding: 12px 11px;
+  padding: 20px 11px;
   text-align: center;
 }
 .banner-calc-inner ul li p {
@@ -819,12 +841,13 @@ img.vert-move {
   color: #e4851b;
   font-size: 26px;
   font-weight: 700;
+  margin-top: 10px;
 }
 .listing-price {
   padding-bottom: 10px;
 }
 .listing-price p {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 400;
   color: #fff;
 }
@@ -836,8 +859,10 @@ img.vert-move {
   font-weight: 600;
   text-align: left;
 }
+p.amount-raised {
+  font-size: 18px;
+}
 .listing-price p span {
-  color: var(--secondary-color);
   font-family: cursive;
   font-weight: 700;
   letter-spacing: -1.8px;
@@ -851,23 +876,32 @@ img.vert-move {
   padding-left: 10px;
   color: #00833a;
 }
-.banner-calc-inner .progress {
-  height: 30px;
+.buy-bigboss .progress {
+  height: 35px;
   border-radius: 30px;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   margin-bottom: 10px;
   background-color: #fff;
+  padding: 2px;
+  margin-top: 15px;
 }
-.banner-calc-inner .progress-bar {
+.banner-calc-btn a.btn {
+  background: #1C009A;
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 800;
+  padding: 10px 0;
+}
+.buy-bigboss .progress-bar {
   width: 76%;
   background: var(--primary-color);
   font-size: 20px;
   border-radius: 12px;
   border-right: 3px solid #fff;
-  color: #e5861b;
-  font-weight: 600;
-  justify-content: end;
-  align-items: end;
+  color: #fff;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
 }
 .banner-cacl-btn {
   margin-bottom: 30px;
@@ -1164,6 +1198,12 @@ section.marquee-line.marque-line-custom .marquee.marquee-first {
   }
 }
 @media (max-width: 1199px) {
+  .bigboss-presale h2 {
+    font-size: 22px;
+}
+.banner-calc-btn a.btn {
+  font-size: 18px;
+}
   .chosen-onebox ul li img.first-child-img {
     max-width: 100px;
   }
@@ -1373,6 +1413,10 @@ section.marquee-line.marque-line-custom .marquee.marquee-first {
   }
 }
 @media (max-width: 767px) {
+  .banner-calc-btn a.btn {
+    font-size: 18px;
+    padding: 6px 0;
+}
   .chosen-onebox ul li img.first-child-img {
     max-width: 75px;
   }
@@ -1581,8 +1625,14 @@ section.marquee-line.marque-line-custom .marquee.marquee-first {
     font-size: 20px;
   }
   .paybox-inner h5 {
-    font-size: 15px;
+    font-size: 13px;
   }
+  .paybox-inner h4 {
+    font-size: 15px;
+}
+.paybox-inner p {
+  font-size: 13px;
+}
   .banner-calc-inner h3.amount-text {
     font-size: 30px;
   }

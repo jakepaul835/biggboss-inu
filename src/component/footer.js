@@ -18,12 +18,12 @@ export default function Footer() {
                                     <div className='footer-follow-us'>
                                         <p>Follow Us</p>
                                     </div>
-                                    <div className='d-flex align-items-center justify-content-center'>
+                                    <div className='d-flex align-items-center justify-content-center social-icons'>
                                         <li>
-                                            <a href="/"><img src={twittericon} alt="" /></a>
+                                            <a href="/" className='d-inline-block'><img src={twittericon} alt="" /></a>
                                         </li>
                                         <li>
-                                            <a href="/"><img src={telegramicon} alt="" /></a>
+                                            <a href="/" className='d-inline-block'><img src={telegramicon} alt="" /></a>
                                         </li>
                                     </div>
                                 </ul>
