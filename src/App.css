@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
 /* Cubic Deer Font */
 @font-face {
   font-family: "Cupid Deer";
@@ -11,8 +11,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-}
-@font-face {
+}@font-face {
   font-family: "Cupid Deer";
   src: url("../src/fonts/CupidDeer_1.eot");
   src: url("../src/fonts/CupidDeer_1.eot?#iefix") format("embedded-opentype"),
@@ -23,7 +22,199 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-Thin.eot');
+  src: url('../src/fonts/Ageo-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-Thin.woff2') format('woff2'),
+      url('../src/fonts/Ageo-Thin.woff') format('woff'),
+      url('../src/fonts/Ageo-Thin.ttf') format('truetype'),
+      url('../src/fonts/Ageo-Thin.svg#Ageo-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-Bold.eot');
+  src: url('../src/fonts/Ageo-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-Bold.woff2') format('woff2'),
+      url('../src/fonts/Ageo-Bold.woff') format('woff'),
+      url('../src/fonts/Ageo-Bold.ttf') format('truetype'),
+      url('../src/fonts/Ageo-Bold.svg#Ageo-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-SemiBold.eot');
+  src: url('../src/fonts/Ageo-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-SemiBold.woff2') format('woff2'),
+      url('../src/fonts/Ageo-SemiBold.woff') format('woff'),
+      url('../src/fonts/Ageo-SemiBold.ttf') format('truetype'),
+      url('../src/fonts/Ageo-SemiBold.svg#Ageo-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-Regular.eot');
+  src: url('../src/fonts/Ageo-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-Regular.woff2') format('woff2'),
+      url('../src/fonts/Ageo-Regular.woff') format('woff'),
+      url('../src/fonts/Ageo-Regular.ttf') format('truetype'),
+      url('../src/fonts/Ageo-Regular.svg#Ageo-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-RegularItalic.eot');
+  src: url('../src/fonts/Ageo-RegularItalic.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-RegularItalic.woff2') format('woff2'),
+      url('../src/fonts/Ageo-RegularItalic.woff') format('woff'),
+      url('../src/fonts/Ageo-RegularItalic.ttf') format('truetype'),
+      url('../src/fonts/Ageo-RegularItalic.svg#Ageo-RegularItalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-SemiBoldItalic.eot');
+  src: url('../src/fonts/Ageo-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-SemiBoldItalic.woff2') format('woff2'),
+      url('../src/fonts/Ageo-SemiBoldItalic.woff') format('woff'),
+      url('../src/fonts/Ageo-SemiBoldItalic.ttf') format('truetype'),
+      url('../src/fonts/Ageo-SemiBoldItalic.svg#Ageo-SemiBoldItalic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-ThinItalic.eot');
+  src: url('../src/fonts/Ageo-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-ThinItalic.woff2') format('woff2'),
+      url('../src/fonts/Ageo-ThinItalic.woff') format('woff'),
+      url('../src/fonts/Ageo-ThinItalic.ttf') format('truetype'),
+      url('../src/fonts/Ageo-ThinItalic.svg#Ageo-ThinItalic') format('svg');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-HeavyItalic.eot');
+  src: url('../src/fonts/Ageo-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-HeavyItalic.woff2') format('woff2'),
+      url('../src/fonts/Ageo-HeavyItalic.woff') format('woff'),
+      url('../src/fonts/Ageo-HeavyItalic.ttf') format('truetype'),
+      url('../src/fonts/Ageo-HeavyItalic.svg#Ageo-HeavyItalic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-MediumItalic.eot');
+  src: url('../src/fonts/Ageo-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-MediumItalic.woff2') format('woff2'),
+      url('../src/fonts/Ageo-MediumItalic.woff') format('woff'),
+      url('../src/fonts/Ageo-MediumItalic.ttf') format('truetype'),
+      url('../src/fonts/Ageo-MediumItalic.svg#Ageo-MediumItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-Heavy.eot');
+  src: url('../src/fonts/Ageo-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-Heavy.woff2') format('woff2'),
+      url('../src/fonts/Ageo-Heavy.woff') format('woff'),
+      url('../src/fonts/Ageo-Heavy.ttf') format('truetype'),
+      url('../src/fonts/Ageo-Heavy.svg#Ageo-Heavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-Medium.eot');
+  src: url('../src/fonts/Ageo-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-Medium.woff2') format('woff2'),
+      url('../src/fonts/Ageo-Medium.woff') format('woff'),
+      url('../src/fonts/Ageo-Medium.ttf') format('truetype'),
+      url('../src/fonts/Ageo-Medium.svg#Ageo-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-Light.eot');
+  src: url('../src/fonts/Ageo-Light.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-Light.woff2') format('woff2'),
+      url('../src/fonts/Ageo-Light.woff') format('woff'),
+      url('../src/fonts/Ageo-Light.ttf') format('truetype'),
+      url('../src/fonts/Ageo-Light.svg#Ageo-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-ExtraBoldItalic.eot');
+  src: url('../src/fonts/Ageo-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-ExtraBoldItalic.woff2') format('woff2'),
+      url('../src/fonts/Ageo-ExtraBoldItalic.woff') format('woff'),
+      url('../src/fonts/Ageo-ExtraBoldItalic.ttf') format('truetype'),
+      url('../src/fonts/Ageo-ExtraBoldItalic.svg#Ageo-ExtraBoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-ExtraBold.eot');
+  src: url('../src/fonts/Ageo-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-ExtraBold.woff2') format('woff2'),
+      url('../src/fonts/Ageo-ExtraBold.woff') format('woff'),
+      url('../src/fonts/Ageo-ExtraBold.ttf') format('truetype'),
+      url('../src/fonts/Ageo-ExtraBold.svg#Ageo-ExtraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-BoldItalic.eot');
+  src: url('../src/fonts/Ageo-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-BoldItalic.woff2') format('woff2'),
+      url('../src/fonts/Ageo-BoldItalic.woff') format('woff'),
+      url('../src/fonts/Ageo-BoldItalic.ttf') format('truetype'),
+      url('../src/fonts/Ageo-BoldItalic.svg#Ageo-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ageo';
+  src: url('../src/fonts/Ageo-LightItalic.eot');
+  src: url('../src/fonts/Ageo-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/Ageo-LightItalic.woff2') format('woff2'),
+      url('../src/fonts/Ageo-LightItalic.woff') format('woff'),
+      url('../src/fonts/Ageo-LightItalic.ttf') format('truetype'),
+      url('../src/fonts/Ageo-LightItalic.svg#Ageo-LightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   --primary-color: #52b1c5;
   --secondary-color: #472610;
@@ -32,7 +223,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Ageo';
   overflow-x: hidden;
 }
 p,
@@ -43,7 +234,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Ageo';
 }
 
 img {
@@ -140,12 +331,13 @@ header.main-header.scrolled {
   border-radius: 50px;
 }
 .follow-us {
-  font-size: 30px;
+  font-size: 40px;
   color: #fff;
   rotate: -90deg;
   margin-top: 100px;
-  font-weight: 600;
+  font-weight: 900;
   text-shadow: 0px 0px 7px #626262;
+  white-space: nowrap;
 }
 
 .logo-listing-sec {
@@ -200,7 +392,7 @@ header.main-header.scrolled {
   padding: 12px 18px;
   font-size: 18px;
   font-weight: 800;
-  font-family: "Poppins";
+  font-family: 'Ageo';
 }
 .chosen-onebox .btn-primary:active,
 .chosen-onebox .btn-primary:focus,
@@ -297,7 +489,7 @@ header.main-header.scrolled {
 .about-content p {
   font-size: 22px;
   color: #fff;
-  font-weight: 600;
+  font-weight: 900;
   margin-top: -82px;
   background: var(--primary-color);
   padding: 65px 41px 45px;
@@ -675,6 +867,7 @@ footer .footer-logo img {
   color: #fff;
   text-decoration: none;
   font-size: 20px;
+  font-weight: 600;
 }
 .star {
   animation-name: blink;
@@ -747,7 +940,7 @@ img.vert-move {
   max-width: 75%;
 }
 .bigboss-presale h2 {
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 700;
   color: #472610;
   margin: 0;
@@ -778,7 +971,7 @@ img.vert-move {
   color: #fff;
   text-shadow: 1px 2px 1px BLACK;
   margin-bottom: 20px;
-  font-weight: 600;
+  font-weight: 900;
   letter-spacing: 0.4px;
   text-align: center;
   line-height: 30px;
@@ -786,6 +979,8 @@ img.vert-move {
 .banner-calc-inner .amount-text {
   text-shadow: none;
   margin-bottom: 10px;
+  font-size: 60px;
+  margin-top: 20px;
 }
 .banner-calc-inner h3 span {
   color: #fff;
@@ -838,23 +1033,23 @@ img.vert-move {
   padding-inline: 6px;
   padding-block: 0px !important;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
   color: #fff;
 }
 .banner-calc-inner ul li h5 {
   border-radius: 0 0 12px 12px;
   padding: 4px;
   color: #e4851b;
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 34px;
+  font-weight: 900;
   margin-top: 10px;
 }
 .listing-price {
   padding-bottom: 10px;
 }
 .listing-price p {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 35px;
+  font-weight: 600;
   color: #fff;
 }
 .banner-calc-inner p.amout-raised {
@@ -866,10 +1061,9 @@ img.vert-move {
   text-align: left;
 }
 p.amount-raised {
-  font-size: 18px;
+  font-size: 20px;
 }
 .listing-price p span {
-  font-family: cursive;
   font-weight: 700;
   letter-spacing: -1.8px;
 }
@@ -894,8 +1088,8 @@ p.amount-raised {
 .banner-calc-btn a.btn {
   background: #1C009A;
   border-radius: 50px;
-  font-size: 22px;
-  font-weight: 800;
+  font-size: 25px;
+  font-weight: 900;
   padding: 10px 0;
 }
 .buy-bigboss .progress-bar {
@@ -1006,7 +1200,7 @@ p.amount-raised {
   margin-right: 10px;
 }
 .paybox-inner h5 {
-  font-weight: 700;
+  font-weight: 900;
   margin-bottom: 10px;
   color: var(--secondary-color);
   font-size: 18px;
@@ -1019,15 +1213,14 @@ p.amount-raised {
 }
 .paybox-inner h4 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 900;
   color: var(--secondary-color);
   margin: 0;
 }
 .paybox-inner p {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--primary-color);
-  font-family: cursive;
   margin-bottom: 0;
 }
 .how-tobuy-bg.how-tobuy-bg1{
@@ -1083,7 +1276,7 @@ p.amount-raised {
   right: 40px;
 }
 .how-tobuy-bg p{
-  font-weight: 600;
+  font-weight: 700;
   color: #472610;
 }
 .contact-address-section{
@@ -1179,7 +1372,7 @@ section.marquee-line.marque-line-custom .marquee.marquee-first {
     font-size: 16px;
   }
   .follow-us {
-    font-size: 24px;
+    font-size: 32px;
   }
   .how-tobuy-bg2 .htb-heading h3, .htb-heading h3 {
     font-size: 30px;
@@ -1268,7 +1461,7 @@ section.marquee-line.marque-line-custom .marquee.marquee-first {
     font-size: 20px;
   }
   .banner-calc-inner .amount-text {
-    font-size: 26px;
+    font-size: 46px;
   }
   .how-tobuy-bg2 .htb-heading h3, .htb-heading h3 {
     font-size: 20px;
