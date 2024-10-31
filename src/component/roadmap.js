@@ -26,9 +26,9 @@ export default function Roadmap() {
                                 </div>
                                 <div>
                                     <ul className='roadmap-data-list list'>
-                                        <li>Launch Big Boss Inu with a powerful presale.</li>
-                                        <li>Build a strong community through social media and partnerships.</li>
-                                        <li>Set the stage for Big Boss Inu to become a top memecoin contender.</li>
+                                        <li><strong>Launch Big Boss Inu</strong> with a powerful presale.</li>
+                                        <li><strong>Build a strong community</strong> through social media and partnerships.</li>
+                                        <li><strong>Set the stage</strong> for Big Boss Inu to become a top memecoin contender.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -43,11 +43,10 @@ export default function Roadmap() {
                                 </div>
                                 <div>
                                     <ul className='roadmap-data-list list'>
-                                        <li>Begin major marketing campaigns to spread awareness worldwide.</li>
-                                        <li>List on top exchanges to make Big Boss Inu accessible to everyone.</li>
-                                        <li>Collaborate with influencers and brands to strengthen the Big Boss Inu presence.</li>
-                                        <li>Grow our army—unite meme lovers and crypto fans under the Big Boss brand.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetuer</li>
+                                        <li><strong>Begin major marketing campaigns</strong> to spread awareness worldwide.</li>
+                                        <li><strong>List on top exchanges</strong> to make Big Boss Inu accessible to everyone.</li>
+                                        <li><strong>Collaborate with influencers and brands</strong> to strengthen the Big Boss Inu presence.</li>
+                                        <li><strong>Grow our army</strong> — unite meme lovers and crypto fans under the Big Boss brand.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -62,10 +61,10 @@ export default function Roadmap() {
                                 </div>
                                 <div>
                                     <ul className='roadmap-data-list list'>
-                                        <li>Educate and raise awareness about  BIG BOSS INU and cryptocurrency through global campaigns.</li>
-                                        <li>Expand accessibility with wallet integrations and user-friendly platforms.</li>
-                                        <li>Promote Big Boss Inu as a symbol of crypto’s mainstream adoption.</li>
-                                        <li>Host events and contests to engage and excite the community.</li>
+                                        <li><strong>Educate and raise awareness</strong> about  BIG BOSS INU and cryptocurrency through global campaigns.</li>
+                                        <li><strong>Expand accessibility</strong> with wallet integrations and user-friendly platforms.</li>
+                                        <li><strong>Promote Big Boss Inu as a symbol</strong> of crypto’s mainstream adoption.</li>
+                                        <li><strong>Host events and contests</strong> to engage and excite the community.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -80,10 +79,10 @@ export default function Roadmap() {
                                 </div>
                                 <div>
                                     <ul className='roadmap-data-list list'>
-                                        <li>Aim for record-breaking community growth—build the largest meme token army.</li>
-                                        <li>Secure top positions on exchanges—make Big Boss Inu the go-to memecoin.</li>
-                                        <li>Achieve mainstream media coverage to bring Big Boss Inu into the spotlight.</li>
-                                        <li>Declare Big Boss Inu as the Boss of All Memes—confident, unstoppable, and legendary.</li>
+                                        <li><strong>Aim for record-breaking community growth</strong>—build the largest meme token army.</li>
+                                        <li><strong>Secure top positions on exchanges</strong>—make Big Boss Inu the go-to memecoin.</li>
+                                        <li><strong>Achieve mainstream media coverage</strong> to bring Big Boss Inu into the spotlight.</li>
+                                        <li><strong>Declare Big Boss Inu as the Boss of All Memes</strong>—confident, unstoppable, and legendary.</li>
                                     </ul>
                                 </div>
                             </div>

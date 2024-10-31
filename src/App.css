@@ -83,7 +83,7 @@ ul {
   gap: 70px;
 }
 header.main-header.scrolled {
-  background: var(--secondary-color);
+  background: var(--primary-color);
 }
 
 .main-header .nav-link {

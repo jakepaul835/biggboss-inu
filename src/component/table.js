@@ -142,7 +142,7 @@ export default function Table() {
                                             <img src={sparkleicon} alt="" className="star" />
                                             <img src={sparkleicon} alt="" className="star" />
                                             <div className='table-span'>
-                                                <span>Massive PY for holders!</span>
+                                                <span>Massive APY for holders!</span>
                                             </div>
                                         </div>
                                         <div className="col-2 text-center py-2 px-0">
