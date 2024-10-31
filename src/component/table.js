@@ -188,7 +188,7 @@ export default function Table() {
                                             </div>
                                         </div>
                                         <div className="col-2 text-center py-2 px-0">
-                                            <img src={sparkleicon} alt="" className="star" />
+                                            <img src={sparkleicon} alt="" />
                                             <div className='table-span'>
                                                 <span>Minimal<br /> partnerships</span>
                                             </div>
