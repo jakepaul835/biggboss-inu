@@ -599,6 +599,12 @@ header.main-header.scrolled {
   padding:60px 40px 25px 80px;
   position: relative;
 }
+.roadmap-datacard1,
+.roadmap-datacard2,
+.roadmap-datacard3,
+.roadmap-datacard4 {
+    height: 100%;
+  }
 .icon-img {
   position: absolute;
   top: -40px;
@@ -608,14 +614,14 @@ ul.roadmap-data-list.list {
   list-style: disc;
 }
 ul.roadmap-data-list.list li {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: #472610;
   margin-bottom: 5px;
   line-height: 22px;
 }
 .roadmap-heading h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   color: #fff;
   background: rgb(232,169,72);
@@ -1601,6 +1607,10 @@ section.marquee-line.marque-line-custom .marquee.marquee-first {
   }
   .contact-address-section{
     padding: 140px 0;
+  }
+  .roadmap-heading h3 {
+    font-size: 16px;
+    padding: 15px;
   }
 }
 @media (max-width: 565px) {
