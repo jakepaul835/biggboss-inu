@@ -979,7 +979,7 @@ img.vert-move {
 .banner-calc-inner .amount-text {
   text-shadow: none;
   margin-bottom: 10px;
-  font-size: 60px;
+  font-size: 52px;
   margin-top: 20px;
 }
 .banner-calc-inner h3 span {
@@ -1032,7 +1032,7 @@ img.vert-move {
   border-radius: 20px;
   padding-inline: 6px;
   padding-block: 0px !important;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 700;
   color: #fff;
 }
@@ -1198,6 +1198,7 @@ p.amount-raised {
 }
 .paybox-box img {
   margin-right: 10px;
+  max-width: 60px;
 }
 .paybox-inner h5 {
   font-weight: 900;
@@ -1436,13 +1437,13 @@ section.marquee-line.marque-line-custom .marquee.marquee-first {
     font-size: 30px;
   }
   .banner-calc-inner ul li p {
-    font-size: 14px;
+    font-size: 17px;
   }
   .banner-calc-inner ul li h5 {
-    font-size: 22px;
+    font-size: 28px;
   }
   .paybox-inner h5 {
-    font-size: 14px;
+    font-size: 18px;
   }
   .paybox-inner h4 {
     font-size: 18px;
@@ -1455,7 +1456,7 @@ section.marquee-line.marque-line-custom .marquee.marquee-first {
     padding-inline: 15px;
   }
   .follow-us{
-    font-size: 22px;
+    font-size: 32px;
   }
   .banner-cacl-btn .btn {
     font-size: 20px;
