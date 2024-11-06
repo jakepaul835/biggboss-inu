@@ -114,7 +114,7 @@ export default function Banner() {
                                     </div>
                                     <div className='buy-bigboss'>
                                         <div className="progress">
-                                            <div style={{ width: `${presaleData.TEXTBOXVAL}%` }}  className="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{presaleData.TEXTBOXVAL}70%</div>
+                                            <div  className="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{presaleData.TEXTBOXVAL}70%</div>
                                         </div>
                                         <div className="pay-box">
                                             <div className="paybox-inner">
