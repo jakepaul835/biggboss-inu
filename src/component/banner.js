@@ -105,14 +105,14 @@ export default function Banner() {
                                         </ul>
                                         <p className="amount-raised">Total Amount Raised :</p>
                                         <h3 className="amount-text text-start">{amountRaised}</h3>
-                                        <div className="progress">
-                                            <div style={{ width: `${presaleData.TEXTBOXVAL}%` }}  className="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{presaleData.TEXTBOXVAL}%</div>
-                                        </div>
                                         <div className="listing-price text-center">
                                             <p>{presaleData.UPTO} : <span>{presaleData.PERCENTAGE}</span></p>
                                         </div>
                                     </div>
                                     <div className='buy-bigboss'>
+                                        <div className="progress">
+                                            <div className="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{presaleData.TEXTBOXVAL}70%</div>
+                                        </div>
                                         <div className="pay-box">
                                             <div className="paybox-inner">
                                                 <h5 className="text-start">You Pay <span>{presaleData.STAGEBONUSVAL}</span></h5>
