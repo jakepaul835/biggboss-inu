@@ -13,7 +13,7 @@ import BannerLeftImg from "../images/banner-left-img.png";
 export default function Banner() { 
    
     
-    const [amountRaised, setAmountRaised] = useState('');
+    // const [amountRaised, setAmountRaised] = useState('');
     const [presaleData, setPresaleData] = useState(null);
     const [loading, setLoading] = useState(true);
 
@@ -25,6 +25,7 @@ export default function Banner() {
         const fetchPresaleData = async () => {
             try {
                 const response = await axios.get('https://nadeemdesigns.com/dev/bigboss/aapi.php');
+                // const response = await axios.get('http://localhost/static/bigboss/aapi.php');
                 setPresaleData(response.data);
             } catch (error) {
                 console.error("Error fetching presale data:", error);
@@ -37,21 +38,22 @@ export default function Banner() {
     }, []);
 
 
-      useEffect(() => {
-        const fetchAmount = async () => {
-            try {
-                const response = await fetch(`https://nadeemdesigns.com/dev/bigboss/api.php?showtime=${presaleData.CHOICE}`);
-                const data = await response.json();
-                if (data.amount) {
-                    setAmountRaised(`$${data.amount}`);
-                }
-            } catch (error) {
-                console.error('Error fetching amount:', error);
-            }
-        };
+    //   useEffect(() => {
+    //     const fetchAmount = async () => {
+    //         try {
+    //             // const response = await fetch(`https://nadeemdesigns.com/dev/bigboss/api.php?showtime=${presaleData.CHOICE}`);
+    //             const response = await fetch(`http://localhost/static/bigboss/api.php?showtime=${presaleData.CHOICE}`);
+    //             const data = await response.json();
+    //             if (data.amount) {
+    //                 setAmountRaised(`$${data.amount}`);
+    //             }
+    //         } catch (error) {
+    //             console.error('Error fetching amount:', error);
+    //         }
+    //     };
         
-        fetchAmount();
-    }, [presaleData]);
+    //     fetchAmount();
+    // }, [presaleData]);
       
 
     if (loading) {
@@ -104,15 +106,15 @@ export default function Banner() {
                                             </li>
                                         </ul>
                                         <p className="amount-raised">Total Amount Raised :</p>
-                                        <h3 className="amount-text text-start">{amountRaised}</h3>
+                                        <h3 className="amount-text text-start">{presaleData.VESTINGBONUS}</h3>
+                                        <div className="progress">
+                                            <div style={{ width: `${presaleData.TEXTBOXVAL}%` }}  className="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{presaleData.TEXTBOXVAL}%</div>
+                                        </div>
                                         <div className="listing-price text-center">
-                                            <p>{presaleData.UPTO} : <span>{presaleData.PERCENTAGE}</span></p>
+                                            <p>{presaleData.UPTO} : <span>{presaleData.percentage}</span></p>
                                         </div>
                                     </div>
                                     <div className='buy-bigboss'>
-                                        <div className="progress">
-                                            <div className="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{presaleData.TEXTBOXVAL}70%</div>
-                                        </div>
                                         <div className="pay-box">
                                             <div className="paybox-inner">
                                                 <h5 className="text-start">You Pay <span>{presaleData.STAGEBONUSVAL}</span></h5>
