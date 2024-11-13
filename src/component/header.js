@@ -8,6 +8,22 @@ import logoimg from '../../src/images/logo.png';
 
 export default function Header() {
   useEffect(() => {
+    // Add Google Tag Manager script to head
+    const script = document.createElement('script');
+    script.innerHTML = `
+      (function(w,d,s,l,i){
+        w[l]=w[l]||[];
+        w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),
+            dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5C9KD426');
+    `;
+    document.head.appendChild(script);
+
     // Function to add class on scroll
     const handleScroll = () => {
       if ($(window).scrollTop() > 50) {
@@ -29,9 +45,11 @@ export default function Header() {
   return (
     <>
       <header className='main-header'>
-        <Navbar expand="lg" className="">
+        <Navbar expand="lg">
           <Container>
-            <Navbar.Brand href="/home" className='d-lg-none d-block'><img src={logoimg} alt="" /></Navbar.Brand>
+            <Navbar.Brand href="/home" className='d-lg-none d-block'>
+              <img src={logoimg} alt="" />
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav justify-content-center">
               <Nav className="mx-auto">
